@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# netflix-clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone do Netflix construído emm ReactJS
 
-## Available Scripts
+## Netflix com ReactJS
 
-In the project directory, you can run:
+![Netflix responsivo](./.github/netflix-clone.png)
 
-### `yarn start`
+## 🚀 Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Este é um pequeno projeto onde foi clonada a interface principal da Netflix utilizando **ReactJS** e consumindo a API tmdb.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A interface contém além da responsividade, animações ao navegar entre os filmes listados em suas categorias.
 
-### `yarn test`
+Todas as informações dos filmes, bem como as imagens e disposição de cada um em sua respectiva categria, foram retiradas da API fornecida do site [themoviesdb.org](www.themoviesdb.org)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Dependências extras
 
-### `yarn build`
+- @material-ui/core
+- @material-ui/icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📝 Instruções
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Faça um clone desse repositório `git clone git@github.com:gustavolarsen/netflix-clone.git`
+2. Abra o projeto no seu VSCode.
+3. No terminal execute `yarn` para instalar todas as dependencias do projeto.4.
+4. No terminal execute `yarn star` para iniciar o servidor.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para que seja possivel acessar as informações da API ao executar a aplicação, você precisará criar uma conta de desenvolvedor no site [themoviesdb.org](www.themoviesdb.org) para receber uma `API_KEY`.
 
-### `yarn eject`
+No arquivo `Tmdb.js`, subsitua o valor da api_key na linha 1 `const API_KEY = 'api_key=Sua_Api_Key_Aqui';` com o valor da sua chave gerada pelo site.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📄 Licença
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este projeto está sob a licença MIT - acesse [LICENSE](./LICENSE) para mais detalhes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🧑🏻 Autor
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Criado com 💙 por Gustavo Larsen

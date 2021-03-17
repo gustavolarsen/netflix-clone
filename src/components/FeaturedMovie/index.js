@@ -8,11 +8,9 @@ export default ({ item }) => {
     genres.push(item.genres[index].name);
   }
 
+  //limitando a descrição em 30 palavras
   let newOverview = item.overview;
   let overview = newOverview.split(' ');
-
-  console.log(overview);
-
   if (overview.length > 30) {
     overview = overview.splice(0, 29);
     newOverview = overview.join(' ') + '...';

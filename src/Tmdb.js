@@ -1,6 +1,4 @@
-import 'dotenv/config';
-
-const API_KEY = 'api_key=b55dfaef762067ee70947f3804b912f9';
+const API_KEY = 'api_key=Sua_Api_Key_Aqui';
 const API_BASE = 'https://api.themoviedb.org/3';
 const LANGUAGE = 'language=pt-BR';
 
